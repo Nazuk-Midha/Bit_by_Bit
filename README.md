@@ -1,4 +1,12 @@
-Hangman Game in Python This is simple hangman game implemented in python. it has text file including all the words. please make sure to keep all the files in one directory or else it will not work. This game selects any random word from the file and asks you to guess character for that word. You will get 8 chances to guess a word. when you guesses correct character your chance will not be counted when you gives wrong character your chance will be reduced by one.
+ Welcome to 'Pig', a dice game!
+    
+    In this game, a user and a computer opponent 
+    roll a 6-sided die each round. If the value of
+    the die is a 1, the player that rolled the 1 loses
+    all of their points. Otherwise, the player gets the
+    value of the die added to their points. The first
+    player to reach 30 points wins!
+"""
 
 Hope you enjoy this game.
 
