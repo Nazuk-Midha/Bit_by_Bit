@@ -1,4 +1,4 @@
- Welcome to 'Pig', a dice game!
+ Welcome to 'Hangman' game!
     
     In this game, a user and a computer opponent 
     roll a 6-sided die each round. If the value of
