@@ -1,11 +1,12 @@
  Welcome to 'Hangman' game!
     
-    In this game, a user and a computer opponent 
-    roll a 6-sided die each round. If the value of
-    the die is a 1, the player that rolled the 1 loses
-    all of their points. Otherwise, the player gets the
-    value of the die added to their points. The first
-    player to reach 30 points wins!
+    First, we will ask for the name of the user. We will take the user input using the input() method. After execution, the input() method takes the input from the user and returns a string.
+Next, we will select a word and ask the user to start guessing the characters in the word.
+We will also define the maximum number of attempts the user can take.
+Now, we will use a while loop to repeatedly ask the user to guess the character until the attempts are exhausted.
+Inside the while loop, if the user guesses the correct character. We will include it in the response. Otherwise, we will notify the user that they made a mistake.
+If the user is able to guess all the characters of the word within the maximum number of attempts, they win the game.
+If the user exhausts all their attempts before guessing the entire word, they lose.
 """
 
 Hope you enjoy this game.
@@ -20,10 +21,12 @@ Ishpreet (Developer)
 Features
 
 
-This implementation of the Pig Dice Game includes the following features:
+This implementation of the Hangman Game includes the following features:
 
-Two players take turns rolling a single die. Each player's turn total and total score are displayed. Players can choose to hold their turn total and add it to their total score. Rolling a 1 ends the player's turn and forfeits their turn total. The game automatically switches turns after each turn ends. The game ends and declares a winner when a player reaches a total score of 100 points.
+The hangman game is a multiplayer game. In this game, one player selects a word. Other players have a certain number of guesses to guess the characters in the word. If the players are able to guess the characters in the entire word within certain attempts, they win. Otherwise, they lose.
 
-How to Run
 
-To run the Pig Dice Game, simply open the index.html file in a web browser. No additional installation or setup is required.
+
+
+Version 1:
+The game is very simple.Make it more advance by making this game for 2 players.Also add instructions at begining.
