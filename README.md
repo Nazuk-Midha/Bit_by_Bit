@@ -21,4 +21,7 @@ Next, we will select a word and ask the user to start guessing the characters in
 
 
 Version 1:
-The game is very simple.Make it more advance by making this game for 2 players.Also add instructions at begining.
+Currently the game is not that much attractive.Make it more advance by making this game for 2 players.Also add brief set of  instructions at begining for better understanding.
+
+Version2:
+Though the game is better than before but still some style elements can be added like color and bold text.
